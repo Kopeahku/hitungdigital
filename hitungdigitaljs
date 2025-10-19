@@ -1,25 +1,15 @@
 let count = 0;
-let maxCount = 11; // Default value
 
 const counterDisplay = document.getElementById('counter');
 const hitungButton = document.getElementById('hitung');
 const resetButton = document.getElementById('reset');
 
-// Update maxCount when dropdown changes
-countSelect.addEventListener('change', () => {
-    maxCount = parseInt(countSelect.value);
-});
 
 // Increment counter and vibrate on multiples of maxCount
 hitungButton.addEventListener('click', () => {
     count++;
     counterDisplay.textContent = count;
 
-    // Vibrate when count is a multiple of maxCount
-    if (count % maxCount === 0 && navigator.vibrate) {
-        navigator.vibrate(100); // Vibrate for 100ms
-    }
-});
 
 // Reset counter
 resetButton.addEventListener('click', () => {
