@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #00ff88, #0099ff);
+    font-family: Arial, sans-serif;
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 8px;
+    color: gray;
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #006400;
+    margin-bottom: 20px;
+}
+
+
+.counter-display {
+    font-size: 48px;
+    font-family: 'Digital-7', monospace;
+    color: #006400;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border: 2px solid #0099ff;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.hitung-btn {
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: #00cc66;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hitung-btn:hover {
+    background-color: #00994d;
+}
+
+.reset-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.reset-btn:hover {
+    background-color: #cc0000;
+}
