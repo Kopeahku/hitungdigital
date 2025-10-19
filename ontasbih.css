@@ -21,7 +21,7 @@ body {
   width: 300px; /* Increased from 150px */
   height: 400px; /* Increased from 200px */
   position: relative;
-  background-image: url(images/counter-body.png);
+  background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5JhypLjixn5f_-xqiHEyv3E6CYUbRUGBuIaqnChGBh8ZiYj_epQvvsd0r3sqIVqhRLdkfVd4hm2WkkBoQmAqAOojUYgRhQfybVcTfQmG9doMnGqInSrn6rw3423eYr5BTQzUHLSuM6VSJ6_8GY2eQQj1bcgvEEY-t_YFLmHK2T3mvuNiF7oqUV46d7JU/s1600/counter-body.png);
   background-size:100% 100%; /* Changed from contain to cover for better scaling */
   background-repeat: no-repeat;
   margin:30px auto;
