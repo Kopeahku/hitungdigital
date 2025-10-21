@@ -1,0 +1,78 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.schedule-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    width: 90%;
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+.location-info {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+
+.prayer-schedule {
+    border-top: 1px solid #dee2e6;
+    padding-top: 10px;
+}
+
+.prayer-time {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 15px;
+    border-bottom: 1px solid #f8f9fa;
+    font-size: 18px;
+    color: #343a40;
+}
+
+.prayer-time:last-child {
+    border-bottom: none;
+}
+
+.prayer-time span:nth-child(2) {
+    font-weight: bold;
+    color: #28a745; /* Warna hijau untuk waktu */
+}
+
+.azan-status {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #856404;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
